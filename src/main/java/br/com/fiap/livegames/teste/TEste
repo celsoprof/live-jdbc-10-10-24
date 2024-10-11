@@ -1,0 +1,2 @@
+"INSERT INTO tb_produto (cd_produto, nm_produto, ds_produto, vl_produto, nr_estoque) VALUES " +
+                  "(seq_produto.nextval, 'Camiseta Branca', 'Camiseta de Algodão', 10.99, 100")
