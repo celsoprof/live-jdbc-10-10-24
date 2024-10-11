@@ -1,8 +1,9 @@
-** SQL PARA CRIAR A TABELA NO BANCO
+## Criando a tabela no banco de dados
 
-```CREATE TABLE TB_GAMES (
-    id int primary key,
-    title varchar2(100) not null,
-    valor decimal(10,2) not null,
-    description varchar(100)
+```sql
+CREATE TABLE produtos (
+    id INT PRIMARY KEY,
+    title VARCHAR2(100) NOT NULL,
+    valor DECIMAL(10,2) NOT NULL,
+    description VARCHAR(100)
 );
